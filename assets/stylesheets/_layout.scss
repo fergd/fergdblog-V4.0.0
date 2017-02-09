@@ -7,7 +7,24 @@ header{
 main{
    width: 100%;
 }
-
+article[id]{
+    max-width: 748px;
+    margin: 0 auto;
+    p, h1, h2, h3, h4, h5, h6, blockquote{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+img{
+    max-width: 100%;
+}
+figure{
+    margin: 0;
+    padding: 0;
+    figcaption{
+        margin: 5px;
+    }
+}
 @media screen and (min-width: 769px){
     header, main{
         float: right;
@@ -17,5 +34,16 @@ main{
     }
     main{
         width: 65%;
+    }
+    figure{
+        figcaption{
+            margin: 10px 20px;
+        }
+    }
+    article[id]{
+        p, h1, h2, h3, h4, h5, h6, blockquote{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
     }
 }

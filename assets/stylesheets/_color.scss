@@ -1,0 +1,13 @@
+$black:			#2c3e50;
+$med-grey: 		#777;
+$light-grey:	#CCC;
+
+$default: 		$black;
+$subheading:	$med-grey;
+$border-color:		$light-grey;
+
+.default{ color: $default; }
+
+body{
+	color: darken($default, 10%);
+}

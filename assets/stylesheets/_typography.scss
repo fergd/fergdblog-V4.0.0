@@ -1,0 +1,58 @@
+$body-copy:			'Open Sans', sans-serif;
+$heading-copy:		'Playfair Display', serif;
+
+.emphasized-copy{
+	font-weight: 700;
+	font-style: italic;
+}
+
+body{
+	font-family: $body-copy;
+	font-size: 16px/1.2;
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+h1,h4{
+	font-family: $heading-copy;
+}
+
+h2,h3,h1+p{
+	font-family: $body-copy;
+}
+
+h3,h1+p{
+	color: $subheading;
+}
+
+h1+p{
+	@extend .emphasized-copy;
+	font-size: 1em;
+	margin-top: 0;
+}
+article > h1 + p{
+	border-top: 1px solid $border-color;
+}
+
+blockquote{
+	border: 1px solid $border-color;
+	border-left: none;
+	border-right: none;
+	color: $med-grey;
+	
+	p{
+		@extend .emphasized-copy;
+		font-size: 1.5em;
+	}
+	h1{
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 769px){
+	article > h1+p{
+		margin-top: -1em;
+	}
+}

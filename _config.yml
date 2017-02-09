@@ -25,11 +25,11 @@ url: "http://christanfergus.com" # the base hostname & protocol for your site, e
 twitter_username: christanfergus.com
 github_username: fergd
 
-img-dir:               "/assets/images/"
-css-dir:               "/assets/css/"
-js-dir:                "/assets/js/"
+img-dir:               "assets/images/"
+css-dir:               "assets/css/"
+js-dir:                "assets/js/"
 
-posts-dir:             "/posts/"
+post-url:             "posts/"
 
 # Build settings
 markdown: kramdown

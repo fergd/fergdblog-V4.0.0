@@ -2,24 +2,9 @@
 <html>
 {% include head.html %}
 <body>
-	
-	<header>
-		<h1>{{ site.author }}</h1>
-		<p>{{ site.title }}</p>
-		<nav>
-			<h2 class="hidden">Navigation</h2>
-			<ul>
-				<li><a href="#">Writings</a></li>
-				<li><a href="#">Work</a></li>
-				<li><a href="#">Profile</a></li>
-			</ul>
-		</nav>
-	</header>
-
+	{% include header.html %}
 	<main>
-		<h1>foo</h1>
 		{{ content }}
 	</main>
-
 </body>
 </html>

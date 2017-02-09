@@ -2,20 +2,22 @@
 ---
 @charset "utf-8";
 @import 
-	"../stylesheets/normalize"
+	"../stylesheets/normalize",
+	"../stylesheets/color"
 ;
 body, html{
 	width: 100%;
 	height: 100%;
 }
-body{
-	font-family: 'Open Sans', sans-serif;
+.hidden{
+	position: absolute !important;
+	height: 1px; 
+	width: 1px; 
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
 }
-
-h1,h2,h3,h4{
-	font-family: 'Playfair Display', serif;
-}
-
 @import 
-	"../stylesheets/layout"
+	"../stylesheets/typography",
+	"../stylesheets/layout",
+	"../stylesheets/posts"
 ;
