@@ -5,31 +5,44 @@ $heading-copy:		'Playfair Display', serif;
 	font-weight: 700;
 	font-style: italic;
 }
-
 body{
 	font-family: $body-copy;
-	font-size: 16px/1.2;
 }
-
 h1{
-	font-size: 2.5em;
+	font-size: ms(3);
 }
-
-h1,h4{
+h2{
+	font-size: ms(2);
+}
+h3, h1+p{
+	font-size: ms(1);
+}
+h4, h5, h6{
+	font-size: ms(1);
+}
+p{
+	font-size: ms(0);
+	line-height: 27px;
+}
+h1{
 	font-family: $heading-copy;
 }
 
-h2,h3,h1+p{
+h2,h3,h1+p, h4,h5,h6{
 	font-family: $body-copy;
 }
 
 h3,h1+p{
 	color: $subheading;
 }
+h4,h5,h6{
+	font-style: italic;
+	font-weight: 700;
+	color: $subheading;
+}
 
 h1+p{
 	@extend .emphasized-copy;
-	font-size: 1em;
 	margin-top: 0;
 }
 article > h1 + p{
@@ -44,13 +57,21 @@ blockquote{
 	
 	p{
 		@extend .emphasized-copy;
-		font-size: 1.5em;
+		font-size: ms(1);
 	}
 	h1{
-		font-size: 2em;
+		font-size: ms(2);
 	}
 }
-
+article span:first-child{
+	color: $med-grey;
+	float: left;
+	font-family: $heading-copy;
+	font-size: 88px;
+	line-height: 73px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
 @media screen and (min-width: 769px){
 	article > h1+p{
 		margin-top: -1em;
