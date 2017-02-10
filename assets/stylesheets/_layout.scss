@@ -1,15 +1,28 @@
 .full-width{
     width: 100%;
 }
-header{
-   width: 100%;
+html{
+    border-top: 10px solid $yellow;
+}
+header.global-header{
+    @extend .full-width;
 }
 main{
-   width: 100%;
+   @extend .full-width;
+   margin-bottom: 21px; 
 }
-article[id]{
-    max-width: 748px;
-    margin: 0 auto;
+article{
+    &[id]{
+        border-bottom: 1px dotted $med-grey;
+        &:after{
+            content: 'CF';
+            font-family: $heading-copy;
+            color: $green;
+            float: right;
+            font-weight: 800;
+            padding-right: 10px;
+        }
+    }
     p, h1, h2, h3, h4, h5, h6, blockquote{
         margin-left: 5px;
         margin-right: 5px;
@@ -25,12 +38,27 @@ figure{
         margin: 5px;
     }
 }
+@media screen and (min-width: 426px){
+    article{
+        margin: 0 auto;
+        max-width: 748px;
+        margin-bottom: 30px;
+        &[id]:after{
+            padding-right: 0;
+        }
+        p, h1, h2, h3, h4, h5, h6, blockquote{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+}
 @media screen and (min-width: 769px){
-    header, main{
+    header.global-header, main{
         float: right;
     }
-    header{
+    header.global-header{
         width: 35%;
+        padding: 0 30px;
     }
     main{
         width: 65%;
@@ -38,12 +66,6 @@ figure{
     figure{
         figcaption{
             margin: 10px 20px;
-        }
-    }
-    article[id]{
-        p, h1, h2, h3, h4, h5, h6, blockquote{
-            margin-left: 20px;
-            margin-right: 20px;
         }
     }
 }

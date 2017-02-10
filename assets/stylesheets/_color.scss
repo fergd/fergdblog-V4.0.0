@@ -1,13 +1,24 @@
-$black:			#2c3e50;
+$black:			#474E5D;
 $med-grey: 		#777;
 $light-grey:	#CCC;
+$yellow:		#F2C300;
+$green:			#2CC990;
+
 
 $default: 		$black;
 $subheading:	$med-grey;
-$border-color:		$light-grey;
+$border-color:	$yellow;
 
 .default{ color: $default; }
 
 body{
-	color: darken($default, 10%);
+	color: $default;
+}
+p a{
+	color: $green;
+	text-decoration: none;
+	border-bottom: 1px dotted $green;
+	&:hover{
+		border-bottom: 1px solid $green;
+	}
 }

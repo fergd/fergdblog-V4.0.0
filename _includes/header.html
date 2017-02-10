@@ -1,12 +1,5 @@
-<header>
-		<h1>{{ site.author }}</h1>
-		<p>{{ site.title }}</p>
-		<nav>
-			<h2 class="hidden">Navigation</h2>
-			<ul>
-				<li><a href="#">Posts</a></li>
-				<li><a href="#">Work</a></li>
-				<li><a href="#">Profile</a></li>
-			</ul>
-		</nav>
-	</header>
+<header class="global-header">
+	<h1><a href="{{ site.baseurl }}">{{ site.author }}</a></h1>
+	<p>{{ site.site-title }}</p>
+	{% include navigation.html %}
+</header>

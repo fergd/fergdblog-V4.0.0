@@ -18,15 +18,15 @@ comments: true
 <img src="http://res.cloudinary.com/fergd/image/upload/v1483660203/agundxz-vrw-klaas.jpg" alt="A typwriter and desk lamp are shown in a dimly lit room.">
 </figure>
 
-<blockquote>
-	<p>I have no idea what lies in the future, but I do know I can <em>inform</em> that future.</p>
-</blockquote>
-
 ## Hello, The Unexpected
 
 <span>R</span>ecently, a friend and I met for coffee. While we chatted about various topics, the inevitable subject landed upon my current job search. He and I had worked together in the past, and shared many of the same interests. Our careers, however, were taking us both in different directions. The realization that my career trajectory was shifting came on the heels of my time spent, in my basement, drinking endless cups of coffee, searching for jobs. 
 
 During this new, stressful, and mildly exciting job hunting phase, I began to gather assets and information about myself. For once in my life, I realized I had actually done something right: over the course of my career as a web developer,  I had kept notes, records, documentation, and writings on most of the work I’d done. Very little of this was formal, but it was a cache of resources upon which I could quickly draw, enabling me to rapidly ramp up my website, resume, and brand. 
+
+<blockquote>
+	<p>I have no idea what lies in the future, but I do know I can <em>inform</em> that future.</p>
+</blockquote>
 
 As I poured over the morgue of resources I’d compiled over the past ten-or-so years, an observation emerged about my professional self: I realized I wanted to shift my career trajectory to focus on what really ticked my boxes. Let’s explore this a bit further.
 

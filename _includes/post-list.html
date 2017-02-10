@@ -1,0 +1,7 @@
+<div class="posts">
+	<ul>
+	{% for post in site.posts | sort: "date" %}
+		<li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
+	{% endfor %}
+	</ul>
+</div>
