@@ -6,7 +6,7 @@ $green:			#2CC990;
 
 
 $default: 		$black;
-$subheading:	$med-grey;
+$subtitle:		$med-grey;
 $border-color:	$yellow;
 
 .default{ color: $default; }
@@ -14,7 +14,7 @@ $border-color:	$yellow;
 body{
 	color: $default;
 }
-p a{
+p a, article li a{
 	color: $green;
 	text-decoration: none;
 	border-bottom: 1px dotted $green;

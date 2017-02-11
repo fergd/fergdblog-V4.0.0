@@ -10,8 +10,6 @@ published: true
 tags: user experience, professional growth, web development, user interface
 comments: true
 ---
-# {{ page.title }}
-
 {{ page.subtitle }}
 
 <figure>

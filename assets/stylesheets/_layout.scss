@@ -23,9 +23,14 @@ article{
             padding-right: 10px;
         }
     }
-    p, h1, h2, h3, h4, h5, h6, blockquote{
+    p, h1, h2, h3, h4, h5, h6, hr, blockquote, pre, .toc, .grabber{
         margin-left: 5px;
         margin-right: 5px;
+    }
+    hr{
+        border: 0;
+        height: 1px;
+        background: $yellow;
     }
 }
 img{
@@ -46,7 +51,7 @@ figure{
         &[id]:after{
             padding-right: 0;
         }
-        p, h1, h2, h3, h4, h5, h6, blockquote{
+        p, h1, h2, h3, h4, h5, h6, hr, blockquote, pre, .toc, .grabber{
             margin-left: 20px;
             margin-right: 20px;
         }
@@ -67,5 +72,12 @@ figure{
         figcaption{
             margin: 10px 20px;
         }
+    }
+    article{
+        div.column{
+            width: 50%;
+            float: left;
+        } 
+
     }
 }
