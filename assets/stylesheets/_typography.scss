@@ -24,7 +24,7 @@ p{
 	font-size: ms(0);
 	line-height: 27px;
 }
-article ul li{
+article li{
 	line-height: 27px;
 }
 @media screen and (min-width: 575px){
@@ -78,7 +78,6 @@ blockquote, .toc{
 		font-size: ms(0);
 	}
 }
-
 blockquote{
 	border-top: 5px solid $border-color;
 	border-bottom: 1px solid $border-color;

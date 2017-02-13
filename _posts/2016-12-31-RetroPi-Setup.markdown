@@ -2,9 +2,10 @@
 layout: post
 title: Retro Gaming With a RetroPie
 subtitle: Setting up a RetroPie gaming system because I couldn't get an NES Classic
-permalink: retropie-gaming
+permalink: /articles/retropie-gaming/
 date: 2016/06/29 
 author: Christan Fergus
+categories: Technology
 published: true
 comments: true
 toc:

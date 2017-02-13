@@ -7,9 +7,11 @@ nav{
 		li{
 			line-height: 1.2;
 			border-bottom: 1px solid $green;
+			position: relative;
 			&:last-of-type{
 				border: none;	
 			}
+			
 			a{
 				display: block;
 				padding: 10px;
@@ -17,6 +19,14 @@ nav{
 
 				&:hover, &.active{
 					background: $green;
+				}
+				&.active:before{
+					content:"\A";
+					border-style: solid;
+					border-width: 10px 15px 10px 0;
+					border-color: transparent $green transparent transparent;
+					position: absolute;
+					left: -15px;
 				}
 			}
 		}

@@ -2,9 +2,9 @@
 layout: post
 title: Reviving Craftsmanship
 grabber: Should we settle for the "Screw it. Ship it." mentality?
-permalink: reviving-craftsmanship
+permalink: /articles/reviving-craftsmanship/
 date: 2015-04-06
-category: UX Design
+category: User Experience Design
 author: Christan Fergus
 published: true
 comments: true

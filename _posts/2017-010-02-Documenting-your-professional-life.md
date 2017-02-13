@@ -2,9 +2,9 @@
 layout: post
 title: Documenting Your Professional Life
 subtitle: How leaving a trail of document breadcrumbs can give you insight into your professional life
-permalink: documenting-your-professional-life
+permalink: /articles/documenting-your-professional-life/
 date: 2016/06/29 
-category: UX Design
+category: User Experience Design
 author: Christan Fergus
 published: true
 tags: user experience, professional growth, web development, user interface
