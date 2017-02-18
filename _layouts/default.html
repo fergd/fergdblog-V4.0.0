@@ -2,13 +2,17 @@
 <html lang="en">
 {% include head.html %}
 <body>
-	{% if page.layout == 'post' %}
-	<div class="banner"></div>
+	{% if page.banner %}
+	<div class="banner"><h1>Foooooo</h1></div>
 	{% endif %}
+	<div style="height: 400px;"></div>
 	{% include header.html %}
 	<main>
 		{{ content }}
 	</main>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="{{ site.js-dir | prepend: site.baseurl }}jquery.waypoints.min.js"></script>
+	<script src="{{ site.js-dir | prepend: site.baseurl }}sticky.min.js"></script>
+	<script src="{{ site.js-dir | prepend: site.baseurl }}main.js"></script>
 </body>
 </html>

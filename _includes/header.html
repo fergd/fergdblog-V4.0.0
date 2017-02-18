@@ -1,5 +1,7 @@
-<header class="global-header {% if page.layout == 'post' %}pulled{% endif %}">
-	<h1><a href="{{ site.baseurl }}">{{ site.author }}</a></h1>
-	<p>{{ site.site-title }}</p>
-	{% include navigation.html %}
+<header class="global-header {% if page.banner %}pulled{% endif %}">
+	<div class="header-inner">
+		<h1><a href="{{ site.baseurl }}">{{ site.author }}</a></h1>
+		<p>{{ site.site-title }}</p>
+		{% include navigation.html %}
+	</div>
 </header>
