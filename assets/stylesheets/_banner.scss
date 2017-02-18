@@ -5,29 +5,27 @@
 	.cssfilters{
 		.banner{
 			display: block;
-			height: 300px;
-			background: white url(http://res.cloudinary.com/fergd/image/upload/c_scale,h_1280,q_80,w_1920/v1486956468/fergdblog/colors.jpg) center no-repeat;
-		    filter: blur(80px);
-		    background-size: cover;
+			height: 100px;
+			background: black;
 		}
 
-	    .pulled{
-	        margin-top: -225px;
-	        position: relative;
-	        z-index: 9999;
-	        background: white;
+	    // .pulled{
+	    //     margin-top: -225px;
+	    //     position: relative;
+	    //     z-index: 9999;
+	    //     background: white;
 
-	        &:before{
-	            content: '';
-	            position: absolute;
-	            top: 0;
-	            left: 0;
-	            width: 100%;
-	            height: 520px;
-	            box-shadow: 0px -26px 69px -24px $black;
-	            z-index: -1;
-	            background-color: white;
-	        }
-	    }    
+	    //     &:before{
+	    //         content: '';
+	    //         position: absolute;
+	    //         top: 0;
+	    //         left: 0;
+	    //         width: 100%;
+	    //         height: 520px;
+	    //         box-shadow: 0px -26px 69px -24px $black;
+	    //         z-index: -1;
+	    //         background-color: white;
+	    //     }
+	    // }    
 	}
 }
