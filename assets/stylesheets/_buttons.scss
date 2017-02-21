@@ -1,0 +1,27 @@
+a.button{
+	text-decoration: none;
+}
+
+button.button{
+	font-family: $body-copy;
+}
+
+.button{
+	color: $black;
+	height: 50px;
+	padding: 0 10px;
+	background: linear-gradient( to top, $green, lighten($green, 10%));
+	line-height: 50px;
+	font-size: ms(0);
+	font-weight: 700;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid darken($green, 5%);
+
+	&:hover,
+	&:active,
+	&:focus{
+		background: linear-gradient(to top, darken($green, 5%), darken($green, 1%));
+	}
+}

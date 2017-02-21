@@ -2,7 +2,11 @@ $black:			#474E5D;
 $med-grey: 		#777;
 $light-grey:	#CCC;
 $yellow:		#F2C300;
-$green:			#2CC990;
+$green:			#58dca9;
+
+$red:				#FF646A;
+$orange:			#FCB941;
+$blue:				#2C82C9;
 
 
 $default: 		$black;
@@ -15,10 +19,11 @@ body{
 	color: $default;
 }
 p a, article li a{
-	color: $green;
+	color: inherit;
 	text-decoration: none;
-	border-bottom: 1px dotted $green;
+	border-bottom: 1px dotted darken($green, 10%);
+	font-weight: 700;
 	&:hover{
-		border-bottom: 1px solid $green;
+		border-bottom: 1px solid darken($green, 10%);
 	}
 }

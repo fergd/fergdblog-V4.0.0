@@ -17,7 +17,7 @@ article{
         &:after{
             content: 'CF';
             font-family: $heading-copy;
-            color: $green;
+            color: $yellow;
             float: right;
             font-weight: 800;
             padding-right: 10px;
@@ -51,7 +51,7 @@ figure{
         &[id]:after{
             padding-right: 0;
         }
-        p, h1, h2, h3, h4, h5, h6, hr, blockquote, pre, .toc, .grabber{
+        p, h1, h2, h3, h4, h5, h6, hr, blockquote, pre, .toc, .grabber, .comments-wrap{
             margin-left: 20px;
             margin-right: 20px;
         }
@@ -59,13 +59,12 @@ figure{
 }
 @media screen and (min-width: 769px){
     header.global-header{
-        width: 30%;
-        margin-left: 5%;
+        width: 28%;
         padding: 0;
         float: right;
     }
     main{
-        width: 65%;
+        width: 72%;
         float: left;
     }
     figure{

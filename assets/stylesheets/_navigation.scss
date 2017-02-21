@@ -6,10 +6,13 @@ nav{
 		margin: 0;
 		li{
 			line-height: 1.2;
-			border-bottom: 1px solid $green;
+			border-bottom: 1px dotted $green;
 			position: relative;
 			&:last-of-type{
 				border: none;	
+			}
+			&:hover{
+				border-bottom: 1px solid $green;
 			}
 			
 			a{

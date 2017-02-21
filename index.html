@@ -1,13 +1,20 @@
 ---
 layout: default
+page-type: index
 ---
+<div class="leader">
+	<p class="will-fade">I <span class="keep-visible">design</span> deliberate user interfaces, <span class="keep-visible">develop</span> lovely HTML &amp; CSS, &amp; weild a <span class="keep-visible">passion</span> for making the web <span class="keep-visible">accessible</span> to every single gosh-darn amazing human being.</p>
+</div>
+<div class="leader-actions">
+	<p>Want to learn a little more about me?</p>
+	<a href="{{ site.baseurl }}profile/" class="button">Profile</a>
+	<a href="{{ site.baseurl }}resume/" class="button">Resume</a>
+</div>
+<div class="leader-lesser">
 
-<blockquote>
-	<p>I produce deliberate user interfaces, craft lovely HTML &amp; CSS, &amp; weild a passion for making the web accessible to every single gosh-darn amazing human being.</p>
-</blockquote>
-
+</div>
 <article>
-<h2>Recent Articles</h2>
-{% include post-list.html %}
-<a href="{{ site.baseurl}}articles/">View More Articles</a>
+	<h2>Recent Articles</h2>
+	{% include post-list.html %}
+	<a href="{{ site.baseurl}}articles/">View More Articles</a>
 </article>

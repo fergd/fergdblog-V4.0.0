@@ -4,7 +4,7 @@
 <body>
 	{% comment %}<div class="banner"></div>{% endcomment %}
 	{% include header.html %}
-	<main>
+	<main {% if page.page-type == 'index' %}class="index-layout"{% endif %}>
 		{{ content }}
 	</main>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
