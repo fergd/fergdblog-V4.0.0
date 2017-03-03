@@ -1,5 +1,7 @@
 nav{
-	text-align: left;
+	text-align: right;
+	width: 30%;
+	float: right;
 	ul{
 		list-style: none;
 		padding: 0;
@@ -37,5 +39,4 @@ nav{
 	a{
 		@extend .overrule-link-style;
 	}
-
 }

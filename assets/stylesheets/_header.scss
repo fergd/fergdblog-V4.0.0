@@ -1,14 +1,21 @@
 header.global-header{
-	text-align: center;
+	overflow: auto;
+	padding: 0 ms(2);
+	border-bottom: 1px solid $yellow; 
+	.header-inner{
+		float: left;
+		width: 70%;
+	}
 	p{
 		padding: 0 10px;
 	}
 	h1,p{
 		transition: font 0.3s ease;
+		margin: 0;
 	}
 
 	.stick{
-		width: 28%;
+		// width: 28%;
 		h1{
 			font-size: ms(1);
 		}
