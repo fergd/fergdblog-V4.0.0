@@ -1,5 +1,6 @@
 $body-copy:			'Open Sans', sans-serif;
-$heading-copy:		'Playfair Display', serif;
+$heading-copy:		'Titan One', cursive;
+// $heading-copy: 		'Montserrat Subrayada', sans-serif;
 
 .emphasized-copy{
 	font-weight: 700;
@@ -9,16 +10,16 @@ body{
 	font-family: $body-copy;
 }
 h1{
-	font-size: ms(2);
+	font-size: ms(4);
 }
 h2{
-	font-size: ms(1);
+	font-size: ms(2);
 }
-h3, h1+p{
-	font-size: ms(1);
+h3{
+	font-size: ms(3);
 }
 h4, h5, h6{
-	font-size: ms(0);
+	font-size: ms(2);
 }
 p{
 	font-size: ms(0);
@@ -34,7 +35,7 @@ article li{
 	h2{
 		font-size: ms(2);
 	}
-	h3, h1+p{
+	h3{
 		font-size: ms(1);
 	}
 	h4, h5, h6{

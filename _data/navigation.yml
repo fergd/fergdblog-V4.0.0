@@ -4,3 +4,5 @@
   url:              /profile
 - title:            Projects
   url:              /projects
+- title:            Test
+  url:              /test-page

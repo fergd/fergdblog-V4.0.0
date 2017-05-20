@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Christan Fergus | User Experience Designer Developer
-site-title: A guy who does stuff on the web
+site-title: A guy who makes stuff on the web continuum
 email: christan.fergus@gmail.com
 author: Christan Fergus
 description: > # this means to ignore newlines until "baseurl:"
@@ -46,3 +46,6 @@ sass:
   sass_dir:           assets/stylesheets
   style:              compressed
   sourcemap:          true 
+
+# livereload: true     
+# reload_port: 5678

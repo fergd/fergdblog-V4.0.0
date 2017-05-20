@@ -2,37 +2,37 @@
     width: 100%;
 }
 html{
-    border-top: 10px solid $yellow;
+    border-top: 10px solid $la-light-yellow;
 }
-header.global-header{
-    @extend .full-width;
-}
-main{
-   @extend .full-width;
-   margin-bottom: 21px; 
-}
-article{
-    &[id]{
-        border-bottom: 1px dotted $med-grey;
-        &:after{
-            content: 'CF';
-            font-family: $heading-copy;
-            color: $yellow;
-            float: right;
-            font-weight: 800;
-            padding-right: 10px;
-        }
-    }
-    p, h1, h2, h3, h4, h5, h6, hr, blockquote, pre, .toc, .grabber{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    hr{
-        border: 0;
-        height: 1px;
-        background: $yellow;
-    }
-}
+// header.global-header{
+//     @extend .full-width;
+// }
+// main{
+//    @extend .full-width;
+//    margin-bottom: 21px; 
+// }
+// article{
+//     &[id]{
+//         border-bottom: 1px dotted $med-grey;
+//         &:after{
+//             content: 'CF';
+//             font-family: $heading-copy;
+//             color: $yellow;
+//             float: right;
+//             font-weight: 800;
+//             padding-right: 10px;
+//         }
+//     }
+//     p, h1, h2, h3, h4, h5, h6, hr, blockquote, pre, .toc, .grabber{
+//         margin-left: 5px;
+//         margin-right: 5px;
+//     }
+//     hr{
+//         border: 0;
+//         height: 1px;
+//         background: $yellow;
+//     }
+// }
 img{
     max-width: 100%;
 }
@@ -45,39 +45,39 @@ figure{
 }
 
 @media screen and (min-width: 426px){
-    article{
-        margin: 0 auto;
-        max-width: 748px;
-        margin-bottom: 30px;
-        &[id]:after{
-            padding-right: 0;
-        }
-        p, h1, h2, h3, h4, h5, h6, hr, blockquote, pre, .toc, .grabber, .comments-wrap{
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-    }
+    // article{
+    //     margin: 0 auto;
+    //     max-width: 748px;
+    //     margin-bottom: 30px;
+    //     &[id]:after{
+    //         padding-right: 0;
+    //     }
+    //     p, h1, h2, h3, h4, h5, h6, hr, blockquote, pre, .toc, .grabber, .comments-wrap{
+    //         margin-left: 20px;
+    //         margin-right: 20px;
+    //     }
+    // }
 }
 @media screen and (min-width: 769px){
-    header.global-header{
-        width: 28%;
-        padding: 0;
-        float: right;
-    }
-    main{
-        width: 72%;
-        float: left;
-    }
-    figure{
-        figcaption{
-            margin: 10px 20px;
-        }
-    }
-    article{
-        div.column{
-            width: 50%;
-            float: left;
-        } 
+    // header.global-header{
+    //     width: 28%;
+    //     padding: 0;
+    //     // float: left;
+    // }
+    // main{
+    //     width: 72%;
+    //     // float: left;
+    // }
+    // figure{
+    //     figcaption{
+    //         margin: 10px 20px;
+    //     }
+    // }
+    // article{
+    //     div.column{
+    //         width: 50%;
+    //         // float: left;
+    //     } 
 
-    }
+    // }
 }
