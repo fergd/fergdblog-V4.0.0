@@ -1,5 +1,8 @@
 header.global-header{
-	border-bottom: 5px solid $la-blue;
+	border-bottom: 1px dotted $la-blue;
+	display: flex;
+	justify-content: space-between;
+
 	h1{
 		margin-bottom: 0;
 	}

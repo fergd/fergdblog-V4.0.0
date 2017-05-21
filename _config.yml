@@ -41,7 +41,21 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - config
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - "*.DS_Store"
+  - deploy.sh
+  - .gitignore
+  
 sass:
   sass_dir:           assets/stylesheets
   style:              compressed

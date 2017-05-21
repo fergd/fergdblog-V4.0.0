@@ -14,6 +14,7 @@ body, html{
 	height: 100%;
 	font-size: $ms-base;
 }
+
 .hidden{
 	position: absolute !important;
 	height: 1px; 
@@ -35,7 +36,9 @@ body, html{
 	"../stylesheets/article-footer",
 	"../stylesheets/buttons",
 	"../stylesheets/comments",
-	"../stylesheets/landing-layout"
+	"../stylesheets/landing-layout",
+	"../stylesheets/post-list",
+	"../stylesheets/footer"
 ;
 .markup-wrap{
 	display: inline-block;

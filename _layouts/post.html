@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
+
+<main class="grid-wrapper">
+	<div class="g-header">
+		{% include header.html %}
+	</div>
+	{{ content }}
+</main>
+{% comment %}  
 <article id="{{ page.article-id }}">
 <h1>{{ page.title }}</h1>
 {{ content }}
 </article>
 {% include footer-links.html %}
 {% include comments.html %}
+{% endcomment %}

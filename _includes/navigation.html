@@ -1,4 +1,4 @@
-<nav>
+<nav class="g-nav grid-item">
 	<h2 class="hidden">Navigation</h2>
 	<ul class="menu">
 		{% for link in site.data.navigation %}
@@ -8,5 +8,8 @@
         {% endif %}
 		<li><a href="{{ link.url }}" class="{{ active }}">{{ link.title }}</a></li>
 		{% endfor %}
+		<li class="search-wrapper">
+			{% include search-input.html %}
+		</li>
 	</ul>
 </nav>
