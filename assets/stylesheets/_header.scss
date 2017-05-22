@@ -2,8 +2,18 @@ header.global-header{
 	border-bottom: 1px dotted $la-blue;
 	display: flex;
 	justify-content: space-between;
-
+	padding: 0 20px;
+	@media all and (min-width: 600px){
+		padding: 0;
+	}
 	h1{
+		font-family: $site-title;
 		margin-bottom: 0;
+		font-weight: 900;
+		color: $la-blue;
+
+		a:hover{
+			text-decoration: none;
+		}
 	}
 }

@@ -1,27 +1,29 @@
-a.button{
-	text-decoration: none;
-}
+// a.button{
+// 	text-decoration: none;
+// }
 
-button.button{
-	font-family: $body-copy;
-}
+// button.button{
+// 	font-family: $body-copy;
+// }
 
 .button{
 	color: $black;
-	height: 50px;
-	padding: 0 10px;
-	background: linear-gradient( to top, $green, lighten($green, 10%));
-	line-height: 50px;
+	// height: 50px;
+	padding: 10px;
+	// background: linear-gradient( to top, $green, lighten($green, 10%));
+	line-height: 20px;
 	font-size: ms(0);
-	font-weight: 700;
+	font-weight: 900;
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
 	border: 1px solid darken($green, 5%);
+	border-radius: 3px;
 
 	&:hover,
 	&:active,
 	&:focus{
-		background: linear-gradient(to top, darken($green, 5%), darken($green, 1%));
+		// background: linear-gradient(to top, darken($green, 5%), darken($green, 1%));
+		text-decoration: none;
 	}
 }

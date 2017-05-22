@@ -1,0 +1,31 @@
+.g-post-content{
+  grid-column: 2 / 6;
+  grid-row: 3 / 2;
+}
+.article-wrap{
+	display: grid;
+ 	grid-template-columns: repeat(3, 1fr);
+  	grid-gap: 0;
+ 	grid-auto-rows: minmax(50px, auto);
+}
+
+.cat-case-studies{
+	grid-column: 1;
+	grid-row: 1;
+}
+.cat-uxd{
+	grid-column: 2;
+	grid-row: 1;
+}
+.cat-web-dev{
+	grid-column: 3;
+	grid-row: 1;
+}
+.cat-app-dev{
+	grid-column: 1;
+	grid-row: 2;
+}
+.cat-technology{
+	grid-column: 2;
+	grid-row: 2;
+}

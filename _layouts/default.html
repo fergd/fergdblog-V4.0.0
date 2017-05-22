@@ -2,7 +2,15 @@
 <html lang="en">
 {% include head.html %}
 <body>
-	{{ content }}
+	<main class="grid-wrapper">
+		<div class="g-header">
+			{% include header.html %}
+		</div>
+		<div class="g-nav">
+			{% include navigation.html %} 
+		</div>
+		{{ content }}
+	</main>
 	{% include footer.html %} 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<script src="{{ site.js-dir | prepend: site.baseurl }}jquery.waypoints.min.js"></script>

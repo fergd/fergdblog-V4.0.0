@@ -1,5 +1,8 @@
 $body-copy:			'Muli', sans-serif;
-$heading-copy:		'Titan One', cursive;
+// $site-title:		'Titan One', cursive;
+$site-title:		'Muli', cursive;
+
+$heading-copy:		'Muli', sans-serif;
 
 .emphasized-copy{
 	font-weight: 700;
@@ -9,14 +12,18 @@ body{
 	font-family: $body-copy;
 }
 a{
-	color: $black;
+	color: $la-blue;
 	text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
 }
 form, input{
 	font-family: $body-copy;
 }
 h1{
 	font-size: ms(3);
+	font-weight: 900;
 }
 h2{
 	font-size: ms(2);
@@ -55,7 +62,7 @@ h1{
 h2,h3,h1+p, h4,h5,h6{
 	font-family: $body-copy;
 }
-h3,h1+p{
+h3,h1+p,h3+p small{
 	color: $subtitle;
 }
 h4,h5,h6{
@@ -63,7 +70,7 @@ h4,h5,h6{
 	font-weight: 700;
 	color: $subtitle;
 }
-h1+p{
+h1+p, h3+p small{
 	@extend .emphasized-copy;
 	margin-top: 0;
 }

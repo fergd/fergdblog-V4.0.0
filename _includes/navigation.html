@@ -8,8 +8,10 @@
         {% endif %}
 		<li><a href="{{ link.url }}" class="{{ active }}">{{ link.title }}</a></li>
 		{% endfor %}
+		{% comment %} 
 		<li class="search-wrapper">
 			{% include search-input.html %}
 		</li>
+		 {% endcomment %}
 	</ul>
 </nav>

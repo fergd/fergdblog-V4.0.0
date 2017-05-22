@@ -2,5 +2,7 @@
   url:              /articles
 - title:            Profile
   url:              /profile
-# - title:            Test
-#   url:              /test-page
+- title:            Projects
+  url:              /projects
+- title:            Test
+  url:              /test-page
